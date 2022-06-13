@@ -25,7 +25,7 @@ With the dataset not being completely evenly distributed between each state. I'v
 
 ### Kneighbors Model
 At first, I tried just a normal Kneighbors model and by no surprise, the runtime took a lot longer than needed, and the scores were not up to par. This is due to the data having a lot of features. However, to combat this using boosters such as LGBM can fit the data faster and have better scores with the number of features in the data. 
-Kneighbors Scores
+Kneighbors Scores\
 Training: 0.55\
 Testing: 0.22
 
